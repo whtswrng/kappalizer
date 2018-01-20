@@ -7,8 +7,10 @@ async function init() {
 async function renderColorMarkIfHostExistsForCurrenLocation(currentLocationHost) {
     const hosts = await getStoredHosts();
 
+    console.log(currentLocationHost);
     hosts.forEach((host) => {
-        if(host.name === currentLocationHost) {
+        if(currentLocationHost.includes(host.name)) {
+            console.log('match found!', currentLocationHost);
             renderColorMark(host);
             return renderStyle();
         }
