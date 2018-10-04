@@ -3,7 +3,7 @@
   "name": "Kappalizer - Web Page Environment Coloring",
   "description": "Allows to add a color mark to the page depending on environment (devel, staging, production, ...)",
   "short_name": "Kappalizer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "browser_action": {
     "default_icon": "src/kappa.png",
     "default_popup": "src/app/index.html",
