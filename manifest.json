@@ -13,10 +13,6 @@
     {
       "matches": ["<all_urls>"],
       "js": ["src/app/scripts/colormark.js"]
-    },
-    {
-      "matches": ["<all_urls>"],
-      "js": ["src/app/scripts/main.js"]
     }
   ],
   "permissions": [
